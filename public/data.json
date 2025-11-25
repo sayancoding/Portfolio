@@ -1,0 +1,68 @@
+{
+    "skills": [
+        {
+            "title": "Primary Skills",
+            "values": [
+                "Java",
+                "Spring Boot",
+                "JUnit"
+            ]
+        },
+        {
+            "title": "Secondary",
+            "values": [
+                "Kafka",
+                "Angular",
+                "TypeScript",
+                "JavaScript"
+            ]
+        },
+        {
+            "title": "Clouds",
+            "values": [
+                "AWS",
+                "GCP"
+            ]
+        },
+        {
+            "title": "Database",
+            "values": [
+                "MySQL",
+                "MongoDB",
+                "Postgres"
+            ]
+        },
+        {
+            "title": "Others tools",
+            "values": [
+                "Git",
+                "GitHub",
+                "JiRA"
+            ]
+        }
+    ],
+    "experience": {
+        "companyName": "Accenture IND",
+        "role": "Senior Software Engineer",
+        "startDate": "Dec, 2021",
+        "endDate": null,
+        "isPresent": true,
+        "points": [
+            "Built and optimized a high-performance Spring Boot middleware and REST API system, ensuring HIPAA compliance (tokenization/MongoDB), scalable decoupling via Kafka, and 60% faster batch processing and API throughput (Caffeine cache).",
+            "Greatly enhanced data quality and reliability, reducing downstream errors by 30% via validation/business rules and achieving high stability (auto-retry, failure alerts, >85% TDD coverage)."
+        ]
+    },
+    "projects":[
+        {
+            "title": "Expense Manager",
+            "subtitle":"Personal in-out money flow application",
+            "descriptions":[
+                "It's a combination of microservice backend model",
+                "Build with angular"
+            ],
+            "tags":["Java","Spring Boot","Angular","MySQL"],
+            "githubLink":"https://github.com/sayancoding/Expense_Manager",
+            "liveLink" : "https://github.com/sayancoding/Expense_Manager"
+        }
+    ]
+}
