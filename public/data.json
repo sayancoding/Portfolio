@@ -52,17 +52,35 @@
             "Greatly enhanced data quality and reliability, reducing downstream errors by 30% via validation/business rules and achieving high stability (auto-retry, failure alerts, >85% TDD coverage)."
         ]
     },
-    "projects":[
+    "projects": [
         {
             "title": "Expense Manager",
-            "subtitle":"Personal in-out money flow application",
-            "descriptions":[
+            "subtitle": "Personal in-out money flow application",
+            "descriptions": [
                 "It's a combination of microservice backend model",
                 "Build with angular"
             ],
-            "tags":["Java","Spring Boot","Angular","MySQL"],
-            "githubLink":"https://github.com/sayancoding/Expense_Manager",
-            "liveLink" : "https://github.com/sayancoding/Expense_Manager"
+            "tags": [
+                "Java",
+                "Spring Boot",
+                "Angular",
+                "MySQL"
+            ],
+            "githubLink": "https://github.com/sayancoding/Expense_Manager",
+            "liveLink": "https://github.com/sayancoding/Expense_Manager"
         }
+    ],
+    "about": [
+         [
+            "Developed a high-performance Spring Boot middleware service for seamless, high-integrity data transmission and designed RESTful APIs to expedite client/application integration.",
+            "Integrated a robust data validation and business rule enforcement layer, reducing downstream errors by 30% and improving data quality.",
+            "Implemented Kafka producer integration for dynamic, categorized payload publishing, ensuring system decoupling and scalable event-driven architecture."
+        ],
+         [
+            "Built an auto-retry mechanism (Spring-Retry) for critical third-party APIs, improving success rates, and leveraged Caffeine in-memory cache to reduce authentication token calls by 60% and boost API throughput.",
+            "Ensured HIPAA/data security compliance by implementing PHI tokenization and persisting transaction logs in MongoDB; also developed AWS Lambda functions for secure audit data extracts to S3.",
+            "Engineered a multithreaded batch processing engine (ExecutorService) and optimized an API workflow with CompletableFuture (3 APIs), accelerating execution and reducing overall processing time by 60%.",
+            "Followed a TDD approach with JUnit/Mockito, achieving >85% code coverage, and set up failure-triggered email notifications to maintain business continuity and SLAs."
+        ]
     ]
 }

@@ -2,7 +2,8 @@
 export interface IGeneralData{
     skills:ISkill[],
     experience:IExperience,
-    projects:IProject[]
+    projects:IProject[],
+    about:String[][]
 }
 
 export interface ISkill{

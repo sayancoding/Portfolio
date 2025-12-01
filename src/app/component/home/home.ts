@@ -15,7 +15,7 @@ export class Home implements OnInit {
   skills:ISkill[] = []
   experience?:IExperience;
   projects:IProject[] = []
-  
+  about?:String[][] = [];
 
   constructor(private dataService:DataService){}
 
@@ -24,6 +24,8 @@ export class Home implements OnInit {
       this.skills = data.skills
       this.experience = data.experience
       this.projects = data.projects
+      this.about = data.about
+      console.log(this.about)
       console.log("Info is fetched")
     })
     
