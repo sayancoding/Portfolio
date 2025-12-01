@@ -6,7 +6,7 @@ import { JsonPipe, NgClass } from '@angular/common';
 
 @Component({
   selector: 'app-home',
-  imports: [Navbar],
+  imports: [Navbar,],
   templateUrl: './home.html',
   styleUrl: './home.css',
 })

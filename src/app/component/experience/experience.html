@@ -1,0 +1,33 @@
+<div class="flex gap-4 px-7 py-2 backdrop-blur-2xl flex-col lg:flex-row">
+    <div class="flex-2 h-lvh px-6 py-4 border-2 border-indigo-400 rounded-lg shadow-2xl overflow-auto cursor-pointer">
+        <p class="text-2xl font-semibold border-b-2 border-indigo-500 pb-2 mb-2">Skills & Proficiency </p>
+        
+        @for(sk of skills; track sk){
+            <div class=" py-3">
+                <p class="font-semibold pb-1">{{sk.title}} :</p>
+                <div class="flex list-none gap-2 flex-wrap">
+                    @for(e of sk.values; track e){
+                        <li class="bg-blue-50 px-1 rounded-lg border-2 border-indigo-300">{{e}}</li>
+                    }
+                </div>
+            </div>
+
+        }
+    </div>
+    <div class="flex-3 h-lvh px-6 py-4 border-2 border-indigo-400 rounded-lg shadow-2xl overflow-auto cursor-pointer"> 
+        <p class="text-2xl font-semibold border-b-2 border-indigo-500 pb-2 mb-2">Work Experiences </p>
+        <div class=" my-2 py-4 ">
+            <div class="flex justify-between align-bottom">
+                <p class="text-xl font-semibold">{{experience?.companyName}} <span class="text-sm bg-teal-100 px-2 py-0.5 rounded-2xl">{{experience?.location}}</span> <span class="text-sm bg-red-100 mx-1 px-2 py-0.5 rounded-2xl">{{experience?.isPresent ? "Current" : ""}}</span></p>
+                <p class="text-sm mt-1.5 text-gray-600 font-semibold ">{{experience?.startDate}} - {{experience?.isPresent ? "Present" : experience?.endDate}}</p>
+            </div>
+            <p class="font-semibold py-1">{{experience?.role}}</p>
+            <div class="pl-6">
+                @for(p of experience?.points; track p){
+                    <li class="py-1.5 text-sm">{{p}}</li>
+                }
+            </div>
+        </div>
+    </div>
+    
+</div>

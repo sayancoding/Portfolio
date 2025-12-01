@@ -14,7 +14,9 @@
                 "Kafka",
                 "Angular",
                 "TypeScript",
-                "JavaScript"
+                "JavaScript",
+                "Python",
+                "RestAPI"
             ]
         },
         {
@@ -37,19 +39,24 @@
             "values": [
                 "Git",
                 "GitHub",
-                "JiRA"
+                "Jira"
             ]
         }
     ],
     "experience": {
-        "companyName": "Accenture IND",
-        "role": "Senior Software Engineer",
+        "companyName": "Accenture",
+        "location" : "Kolkata",
+        "role": "Custom Software Engeering Sr Analyst",
         "startDate": "Dec, 2021",
         "endDate": null,
         "isPresent": true,
         "points": [
-            "Built and optimized a high-performance Spring Boot middleware and REST API system, ensuring HIPAA compliance (tokenization/MongoDB), scalable decoupling via Kafka, and 60% faster batch processing and API throughput (Caffeine cache).",
-            "Greatly enhanced data quality and reliability, reducing downstream errors by 30% via validation/business rules and achieving high stability (auto-retry, failure alerts, >85% TDD coverage)."
+            "Optimized High-Volume Batch Processing: Engineered a multithreaded batch processing engine using ExecutorService and Thread Pooling, processing 5,000 records per iteration across 495 chained iterations. This optimization reduced overall execution time by 60% and minimized system resource utilization.",
+            "Accelerated API Workflow Automation: Automated a complex multi-step API workflow using CompletableFuture to orchestrate sequential calls, dynamically transforming responses to construct and post downstream requests, significantly accelerating update cycles and reducing manual intervention.",
+            "Enhanced System Reliability and Monitoring: Set up an auto-retry mechanism for critical third-party API calls using Spring-Retry, boosting the API success rate from ~70%. Also implemented failure-triggered email notifications for prompt issue resolution and SLA adherence.",
+            "Developed Core Middleware Services: Implemented a high-performance middleware service using Spring Boot and Java to enable seamless, consistent, and secure data transmission between diverse upstream and downstream systems",
+            "Built Scalable Event-Driven Architecture: Developed Kafka producer integration to dynamically publish categorized payloads to multiple topics, enhancing system decoupling and ensuring a scalable event-driven architecture.",
+            "Enforced Quality through TDD: Followed a Test-Driven Development (TDD) approach with JUnit & Mockito, achieving >85% code coverage while validating functionality, error handling, and edge cases"
         ]
     },
     "projects": [

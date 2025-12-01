@@ -13,6 +13,7 @@ export interface ISkill{
 
 export interface IExperience{
     companyName:String
+    location:String
     role:String
     startDate:String
     endDate:String
